@@ -24,6 +24,7 @@ h1{
 .firstContainer{
   background-color:rgb(246, 248, 249);
   padding-top:5vh;
+  padding-bottom:10vh;
 }
 
 .secondContainer{
@@ -31,6 +32,7 @@ h1{
   width:70vw;
   margin:auto;
   border-radius:10px;
+  padding-bottom:10vh;
 }
 
 .thirdContainer{
@@ -66,7 +68,7 @@ button.bianca{
   width:1.5em;
   color:rgb(122,202,183);
   display:inline-block;
-  border:1px solid rgb(122,202,183);
+  border:1.5px solid rgb(122,202,183);
   border-radius:50%;
   font-size:0.6em;
 }
@@ -85,13 +87,13 @@ button.bianca{
   width:1.5em;
   color:rgb(236,87,77);
   display:inline-block;
-  border:1px solid rgb(236,87,77);
+  border:1.5px solid rgb(236,87,77);
   border-radius:50%;
   font-size:0.6em;
 }
 
 .tasks,.task{
-  margin-top:5vh;
+  margin-top:4vh;
 }
 
 .tasks>.task:first-of-type{
@@ -108,4 +110,13 @@ button.bianca{
 .arancio{
   background-color: rgb(242, 158, 51);
   border: 1px solid rgb(242, 158, 51);
+}
+.rosa{
+  background-color: rgb(215, 99, 161);
+  border: 1px solid rgb(215, 99, 161);
+}
+.verdeErba{
+  background-color: rgb(176, 201, 37);
+  border: 1px solid rgb(176, 201, 37);
+
 }
