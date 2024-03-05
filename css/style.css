@@ -4,7 +4,7 @@
   margin:0;
   padding:0;
 }
-.inizio{
+.headContainer{
   position:relative;
 }
 #titolo{
@@ -21,13 +21,13 @@ h1{
   transform: translate(0,-50%);
 }
 
-.firstContainer{
+.bkground{
   background-color:rgb(246, 248, 249);
   padding-top:5vh;
   padding-bottom:10vh;
 }
 
-.secondContainer{
+.container{
   background-color:white;
   width:70vw;
   margin:auto;
@@ -35,7 +35,7 @@ h1{
   padding-bottom:10vh;
 }
 
-.thirdContainer{
+.aligner{
   margin:auto;
   width:60vw;
 }
