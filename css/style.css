@@ -21,13 +21,34 @@ h1{
   transform: translate(0,-50%);
 }
 
-.mainContainer{
-  background-color: rgb(224, 224, 224);
+.firstContainer{
+  background-color:rgb(246, 248, 249);
 
 }
 
-.container{
+.secondContainer{
   background-color:white;
   width:70vw;
   margin:auto;
+  border-radius:10px;
+}
+
+.thirdContainer{
+  margin:auto;
+  width:60vw;
+}
+
+.celeste{
+  background-color: rgb(0, 153, 255);
+}
+button{
+  padding:1vh 1vw;
+  border:1px;
+  border-radius:5px;
+  color: white;
+}
+button.bianca{
+  color:grey;
+  background-color: white;
+  border-color:grey;
 }
