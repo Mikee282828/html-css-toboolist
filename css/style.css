@@ -4,7 +4,7 @@
   margin:0;
   padding:0;
 }
-header{
+.inizio{
   position:relative;
 }
 #titolo{
@@ -23,7 +23,7 @@ h1{
 
 .firstContainer{
   background-color:rgb(246, 248, 249);
-
+  padding-top:5vh;
 }
 
 .secondContainer{
@@ -37,18 +37,26 @@ h1{
   margin:auto;
   width:60vw;
 }
+hr{
+  border:1px solid rgb(246,248,249);
+}
+nav{
+  padding-top:2vh;
+  padding-bottom:1vh;
 
-.celeste{
+}
+
+button.celeste{
   background-color: rgb(0, 153, 255);
+  border: 1px solid rgb(0, 153, 255);
 }
 button{
   padding:1vh 1vw;
-  border:1px;
   border-radius:5px;
   color: white;
 }
 button.bianca{
   color:grey;
   background-color: white;
-  border-color:grey;
+  border:1px solid grey;
 }
